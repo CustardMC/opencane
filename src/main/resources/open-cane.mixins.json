@@ -3,7 +3,7 @@
 	"package": "xyz.blurryface.opencane.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+      "OpenCaneMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
