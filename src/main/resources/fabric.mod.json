@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "open-cane",
+	"version": "${version}",
+	"name": "Open Cane",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/open-cane/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.blurryface.opencane.OpenCane"
+		],
+		"client": [
+			"xyz.blurryface.opencane.OpenCaneClient"
+		],
+		"fabric-datagen": [
+			"xyz.blurryface.opencane.OpenCaneDataGenerator"
+		]
+	},
+	"mixins": [
+		"open-cane.mixins.json",
+		{
+			"config": "open-cane.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
