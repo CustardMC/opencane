@@ -8,8 +8,8 @@
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://blurryface.xyz",
+		"sources": "https://github.com/blryface/opencane"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/open-cane/icon.png",
@@ -34,11 +34,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.4",
+		"minecraft": ">1.20",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
