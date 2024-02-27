@@ -3,7 +3,7 @@
 	"id": "open-cane",
 	"version": "${version}",
 	"name": "Open Cane",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds an interesting powedery item, which serves as an infinite energy source",
 	"authors": [
 		"Blurryface",
 		"RowanDev",
