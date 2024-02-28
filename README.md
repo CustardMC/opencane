@@ -1,6 +1,6 @@
 # openCane
 
-The Interesting Powder mod, but it's Open Source, CC0, and most importantly, not made in MCreator.
+The Interesting Powder mod, but it's Open Source, Unlicense, and most importantly, not made in MCreator.
 This mod adds a new item: C-cane. It can be confused as an energy source, and it's very efficient at doing so when you start consuming it, but using it too much may lead to issues.
 
 # Additions:
