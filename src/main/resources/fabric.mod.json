@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "open-cane",
+	"id": "opencane",
 	"version": "${version}",
 	"name": "Open Cane",
 	"description": "This mod adds an interesting powedery item, which serves as an infinite energy source",
@@ -28,9 +28,9 @@
 		]
 	},
 	"mixins": [
-		"open-cane.mixins.json",
+		"opencane.mixins.json",
 		{
-			"config": "open-cane.client.mixins.json",
+			"config": "opencane.client.mixins.json",
 			"environment": "client"
 		}
 	],

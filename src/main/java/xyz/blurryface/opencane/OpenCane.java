@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import xyz.blurryface.opencane.item.ModItems;
 
 public class OpenCane implements ModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("open-cane");
+    public static final Logger LOGGER = LoggerFactory.getLogger("opencane");
 
 	public static final String MOD_ID = "opencane";
 
