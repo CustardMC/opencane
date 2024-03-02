@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import xyz.blurryface.opencane.item.ModItemGroups;
 import xyz.blurryface.opencane.item.ModItems;
 
 public class OpenCane implements ModInitializer {
@@ -14,6 +15,7 @@ public class OpenCane implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 		LOGGER.info("I wonder what C-cane is meant to be...");
 	}
 }
