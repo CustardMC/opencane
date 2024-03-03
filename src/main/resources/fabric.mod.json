@@ -5,16 +5,14 @@
 	"name": "Open Cane",
 	"description": "This mod adds an interesting powedery item, which serves as an infinite energy source",
 	"authors": [
-		"Blurryface",
-		"RowanDev",
-		"SuperZekes"
+		"CustardMC"
 	],
 	"contact": {
 		"homepage": "https://blurryface.xyz",
-		"sources": "https://github.com/blryface/opencane"
+		"sources": "https://github.com/CustardMC/opencane"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/open-cane/icon.png",
+	"icon": "assets/opencane/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -35,8 +33,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": ">1.20",
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
 	}
