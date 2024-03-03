@@ -64,7 +64,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("oc_drinks.opencane"))
                     .icon(() -> new ItemStack(Items.POTION)).entries((displayContext, entries) -> {
 
-                        entries.add(Items.POTION);
+                        entries.add(ModItems.COFFEE_CUP);
+                        entries.add(ModItems.WINE_BOTTLE);
+                        entries.add(ModItems.BEER_CAN);
+                        entries.add(ModItems.BEER_BOTTLE);
+                        entries.add(ModItems.VODKA_BOTTLE);
+                        entries.add(ModItems.GIN_BOTTLE);
+                        entries.add(ModItems.RUM_BOTTLE);
 
                     }).build());
 

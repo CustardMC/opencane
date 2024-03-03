@@ -6,7 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import xyz.blurryface.opencane.OpenCane;
-import xyz.blurryface.opencane.lang.LanguageProvider;
+import net.minecraft.item.PotionItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +26,23 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item COFFEE_SEEDS = registerItem("coffee_seeds",
             new Item(new FabricItemSettings()));
+    public static final Item COFFEE_CUP = registerItem("coffee_cup",
+            new PotionItem(new FabricItemSettings()));
+
+    // Alcohol
+
+    public static final Item WINE_BOTTLE = registerItem("wine_bottle",
+            new PotionItem(new FabricItemSettings()));
+    public static final Item BEER_BOTTLE = registerItem("beer_bottle",
+            new PotionItem(new FabricItemSettings()));
+    public static final Item BEER_CAN = registerItem("beer_can",
+            new PotionItem(new FabricItemSettings()));
+    public static final Item VODKA_BOTTLE = registerItem("vodka_bottle",
+            new PotionItem(new FabricItemSettings()));
+    public static final Item GIN_BOTTLE = registerItem("gin_bottle",
+            new PotionItem(new FabricItemSettings()));
+    public static final Item RUM_BOTTLE = registerItem("rum_bottle",
+            new PotionItem(new FabricItemSettings()));
 
     /*   OLD ITEM ADDING CODE
 
