@@ -59,6 +59,7 @@ public class ModItemGroups {
                         // entries.add(ModBlocks.COFFEE_PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_COFFEE_PLANT);
 
+
                     }).build());
 
     public static final ItemGroup SHROOMS_GROUP = Registry.register(Registries.ITEM_GROUP,
