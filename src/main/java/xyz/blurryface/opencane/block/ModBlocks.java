@@ -24,7 +24,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         public static final Block WILD_COFFEE_PLANT = registerBlock("wild_coffee_plant",
             new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
-
+        public static final Block WEED_SAPLING = registerBlock("weed_sapling",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
         private static Block registerBlock(String name, Block block) {
 
             registerBlockItem(name, block);

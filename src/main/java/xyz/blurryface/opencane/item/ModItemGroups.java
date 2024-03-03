@@ -17,9 +17,21 @@ public class ModItemGroups {
     public static final ItemGroup CANE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(OpenCane.MOD_ID, "oc_cane"),
             FabricItemGroup.builder().displayName(Text.translatable("oc_cane.opencane"))
-                    .icon(() -> new ItemStack(Items.OAK_SAPLING)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.CCANE)).entries((displayContext, entries) -> {
 
-                    entries.add(Blocks.OAK_LEAVES);
+                    entries.add(ModItems.CCANE);
+                    entries.add(ModItems.LEAVES);
+                    entries.add(ModItems.DIRED_LEAVES);
+
+                    }).build());
+    public static final ItemGroup SEEDS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(OpenCane.MOD_ID, "oc_seeds"),
+            FabricItemGroup.builder().displayName(Text.translatable("oc_seeds.opencane"))
+                    .icon(() -> new ItemStack(ModItems.CCANE)).entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.SEEDS);
+                        entries.add(ModItems.COFFEE_SEEDS);
+                        entries.add(ModBlocks.WEED_SAPLING);
 
                     }).build());
 
@@ -28,11 +40,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("oc_leaves.opencane"))
                     .icon(() -> new ItemStack(Items.FERN)).entries((displayContext, entries) -> {
 
-                        entries.add(ModBlocks.PLANT);
+                        // entries.add(ModBlocks.PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_PLANT);
-                        entries.add(ModBlocks.WEED_PLANT);
+                        // entries.add(ModBlocks.WEED_PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_WEED_PLANT);
-                        entries.add(ModBlocks.COFFEE_PLANT);
+                        // entries.add(ModBlocks.COFFEE_PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_COFFEE_PLANT);
 
                     }).build());

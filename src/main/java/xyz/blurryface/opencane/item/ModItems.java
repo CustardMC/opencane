@@ -21,10 +21,10 @@ public class ModItems {
 
     // Add C-cane
     public static final Item CCANE = registerSimpleItem("ccane", "C-cane");
-
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {  //makes the item appear on the Creative Inventory
-        toAdd.forEach(entries::add);
-    }
+    public static final Item LEAVES = registerSimpleItem("leaves", "C-cane Leaves");
+    public static final Item DIRED_LEAVES = registerSimpleItem("dried_leaves", "Dried C-cane Leaves");
+    public static final Item SEEDS = registerSimpleItem("seeds", "C-cane Seeds");
+    public static final Item COFFEE_SEEDS = registerSimpleItem("coffee_seeds", "Coffee Seeds");
 
     private static Item registerSimpleItem(String path, String englishName) {
         return registerItem(path, englishName, new Item(new FabricItemSettings()));
@@ -37,9 +37,6 @@ public class ModItems {
         return registered;
     }
     public static void registerModItems() {
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToIngredientItemGroup);
-
     }
 
 }
