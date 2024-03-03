@@ -14,16 +14,25 @@ import net.minecraft.util.Identifier;
 import xyz.blurryface.opencane.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup CANE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(OpenCane.MOD_ID, "oc_cane"),
-            FabricItemGroup.builder().displayName(Text.translatable("oc_cane.opencane"))
+    public static final ItemGroup POWDER_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(OpenCane.MOD_ID, "oc_powders"),
+            FabricItemGroup.builder().displayName(Text.translatable("oc_powders.opencane"))
                     .icon(() -> new ItemStack(ModItems.CCANE)).entries((displayContext, entries) -> {
 
+                    entries.add(ModItems.METHII_CRYSTAL);
                     entries.add(ModItems.CCANE);
-                    entries.add(ModItems.LEAVES);
-                    entries.add(ModItems.DRIED_LEAVES);
 
                     }).build());
+    public static final ItemGroup PILLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(OpenCane.MOD_ID, "oc_pills"),
+            FabricItemGroup.builder().displayName(Text.translatable("oc_pills.opencane"))
+                    .icon(() -> new ItemStack(ModItems.CCANE)).entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.EMDEE_PILL);
+                        entries.add(ModItems.SPEED_PILL);
+
+                    }).build());
+
     public static final ItemGroup SEEDS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(OpenCane.MOD_ID, "oc_seeds"),
             FabricItemGroup.builder().displayName(Text.translatable("oc_seeds.opencane"))
