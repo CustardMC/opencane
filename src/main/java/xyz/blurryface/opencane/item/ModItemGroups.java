@@ -21,13 +21,13 @@ public class ModItemGroups {
 
                     entries.add(ModItems.CCANE);
                     entries.add(ModItems.LEAVES);
-                    entries.add(ModItems.DIRED_LEAVES);
+                    entries.add(ModItems.DRIED_LEAVES);
 
                     }).build());
     public static final ItemGroup SEEDS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(OpenCane.MOD_ID, "oc_seeds"),
             FabricItemGroup.builder().displayName(Text.translatable("oc_seeds.opencane"))
-                    .icon(() -> new ItemStack(ModItems.CCANE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.SEEDS)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.SEEDS);
                         entries.add(ModItems.COFFEE_SEEDS);
