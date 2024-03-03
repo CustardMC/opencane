@@ -44,6 +44,7 @@ public class ModItems {
     public static final Item RUM_BOTTLE = registerItem("rum_bottle",
             new PotionItem(new FabricItemSettings()));
 
+
     /*   OLD ITEM ADDING CODE
 
     // Add C-cane
