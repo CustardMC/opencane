@@ -22,6 +22,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item LEAVES = registerItem("leaves",
             new Item(new FabricItemSettings()));
+    public static final Item WEED_LEAVES = registerItem("weed_leaves",
+            new Item(new FabricItemSettings()));
     public static final Item DRIED_LEAVES = registerItem("dried_leaves",
             new Item(new FabricItemSettings()));
     public static final Item SEEDS = registerItem("seeds",

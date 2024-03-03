@@ -51,10 +51,14 @@ public class ModItemGroups {
 
                         // entries.add(ModBlocks.PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_PLANT);
+                        entries.add(ModItems.LEAVES);
+                        entries.add(ModItems.DRIED_LEAVES);
                         // entries.add(ModBlocks.WEED_PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_WEED_PLANT);
+                        entries.add(ModItems.WEED_LEAVES);
                         // entries.add(ModBlocks.COFFEE_PLANT); <-- is a comment because you shouldn't be able to place crop blocks directly, you do so via seeds.
                         entries.add(ModBlocks.WILD_COFFEE_PLANT);
+
 
                     }).build());
 
@@ -80,7 +84,6 @@ public class ModItemGroups {
                         entries.add(ModItems.VODKA_BOTTLE);
                         entries.add(ModItems.GIN_BOTTLE);
                         entries.add(ModItems.RUM_BOTTLE);
-                        entries.add(Items.POTION);
 
                     }).build());
 
