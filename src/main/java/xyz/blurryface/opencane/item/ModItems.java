@@ -32,7 +32,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item COFFEE_CUP = registerItem("coffee_cup",
             new PotionItem(new FabricItemSettings()));
-    public static final Item METHII_CRYSTAL = registerItem("methii_crystal",
+    public static final Item METHII_CRYSTAL = registerItem("methii_crystal", // https://discord.com/channels/@me/1208862626314985502/1213949066854142032
             new Item(new FabricItemSettings()));
     public static final Item EMDEE_PILL = registerItem("emdee_pill",
             new Item(new FabricItemSettings()));
