@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final Item CCANE = registerItem("ccane",
             new Item(new FabricItemSettings()));
+    public static final Item SPEED_PILL = registerItem("speed_pill",
+            new Item(new FabricItemSettings()));
     public static final Item LEAVES = registerItem("leaves",
             new Item(new FabricItemSettings()));
     public static final Item DRIED_LEAVES = registerItem("dried_leaves",
@@ -28,6 +30,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item COFFEE_CUP = registerItem("coffee_cup",
             new PotionItem(new FabricItemSettings()));
+    public static final Item METHII_CRYSTAL = registerItem("methii_crystal",
+            new Item(new FabricItemSettings()));
+    public static final Item EMDEE_PILL = registerItem("emdee_pill",
+            new Item(new FabricItemSettings()));
 
     // Alcohol
 
