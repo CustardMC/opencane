@@ -1,12 +1,14 @@
 package xyz.blurryface.opencane.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import xyz.blurryface.opencane.OpenCane;
 import net.minecraft.item.PotionItem;
+import xyz.blurryface.opencane.block.ModBlocks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +29,7 @@ public class ModItems {
     public static final Item DRIED_LEAVES = registerItem("dried_leaves",
             new Item(new FabricItemSettings()));
     public static final Item SEEDS = registerItem("seeds",
-            new Item(new FabricItemSettings()));
+            new AliasedBlockItem(ModBlocks.PLANT, new FabricItemSettings()));
     public static final Item COFFEE_SEEDS = registerItem("coffee_seeds",
             new Item(new FabricItemSettings()));
     public static final Item COFFEE_CUP = registerItem("coffee_cup",

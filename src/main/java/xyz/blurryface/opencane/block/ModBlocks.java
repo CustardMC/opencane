@@ -10,20 +10,22 @@ import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
+import xyz.blurryface.opencane.block.custom.CcaneCropBlock;
+
 public class ModBlocks {
         
         public static final Block PLANT = registerBlock("plant",
-                new Block(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+                new CcaneCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         public static final Block WILD_PLANT = registerBlock("wild_plant",
                 new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
         public static final Block WEED_PLANT = registerBlock("weed_plant",
-                new Block(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+                new CcaneCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         public static final Block WILD_WEED_PLANT = registerBlock("wild_weed_plant",
-            new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
+                new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
         public static final Block COFFEE_PLANT = registerBlock("coffee_plant",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+                new Block(FabricBlockSettings.copyOf(Blocks.WHEAT)));
         public static final Block WILD_COFFEE_PLANT = registerBlock("wild_coffee_plant",
-            new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
+             new Block(FabricBlockSettings.copyOf(Blocks.LARGE_FERN)));
         public static final Block WEED_SAPLING = registerBlock("weed_sapling",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
   

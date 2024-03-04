@@ -8,6 +8,7 @@ import xyz.blurryface.opencane.block.ModBlocks;
 import xyz.blurryface.opencane.item.ModItemGroups;
 import xyz.blurryface.opencane.item.ModItems;
 
+
 public class OpenCane implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("opencane");
 
